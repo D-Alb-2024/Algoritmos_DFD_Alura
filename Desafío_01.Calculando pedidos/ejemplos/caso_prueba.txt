@@ -1,0 +1,8 @@
+Caso de prueba 1
+
+Hamburguesas: 2
+Papas: 1
+Refrescos: 3
+
+Resultado esperado:
+46
