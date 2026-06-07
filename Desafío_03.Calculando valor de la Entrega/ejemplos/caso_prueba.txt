@@ -1,0 +1,8 @@
+Entrada
+Ingrese distancia: 12
+¿Está lloviendo?: Sí
+Proceso
+tarifa_previa = tarifa3 = 10
+tarifa_final = 10 + 2
+Salida
+Valor de Entrega Final es: $12
