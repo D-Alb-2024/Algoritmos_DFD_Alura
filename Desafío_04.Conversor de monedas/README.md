@@ -92,12 +92,6 @@ Desafío_04.Conversor de monedas/
 
 ### 🏠 Diagrama principal
 
-Código Markdown utilizado:
-
-```markdown
-![Diagrama Principal](docs/diagrama_principal.png)
-```
-
 Resultado:
 
 ![Diagrama Principal](docs/diagrama_principal.png)
@@ -105,11 +99,6 @@ Resultado:
 ---
 
 ### ⚙️ Diagrama de la función Conversor_moneda
-
-
-```markdown
-![Diagrama Función](docs/diagrama_funcion.png)
-```
 
 Resultado:
 
