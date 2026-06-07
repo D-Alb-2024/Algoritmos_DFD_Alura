@@ -1,0 +1,150 @@
+CASOS DE PRUEBA - DESAFÍO 05
+SIMULADOR DE PEDIDOS EN UNA CAFETERÍA
+
+========================================
+CASO 1 - CLIENTE REGISTRADO
+===========================
+
+ENTRADA
+
+Cantidad de artículos: 3
+
+Artículo 1
+Nombre: Café
+Precio: 8
+
+Artículo 2
+Nombre: Sándwich
+Precio: 12
+
+Artículo 3
+Nombre: Jugo
+Precio: 5
+
+Cliente registrado: SI
+
+PROCESO
+
+Total = 8 + 12 + 5
+Total = 25
+
+Descuento = 25 × 10%
+Descuento = 2.5
+
+Total final = 25 - 2.5
+Total final = 22.5
+
+SALIDA ESPERADA
+
+Total de compra: 25
+Cliente registrado: SI
+Descuento aplicado: 2.5
+Total a pagar: 22.5
+
+========================================
+CASO 2 - CLIENTE NO REGISTRADO
+==============================
+
+ENTRADA
+
+Cantidad de artículos: 2
+
+Artículo 1
+Nombre: Té
+Precio: 6
+
+Artículo 2
+Nombre: Pastel
+Precio: 10
+
+Cliente registrado: NO
+
+PROCESO
+
+Total = 6 + 10
+Total = 16
+
+No se aplica descuento.
+
+SALIDA ESPERADA
+
+Total de compra: 16
+Cliente registrado: NO
+Total a pagar: 16
+
+========================================
+CASO 3 - UN SOLO PRODUCTO
+=========================
+
+ENTRADA
+
+Cantidad de artículos: 1
+
+Artículo 1
+Nombre: Capuccino
+Precio: 15
+
+Cliente registrado: SI
+
+PROCESO
+
+Total = 15
+
+Descuento = 15 × 10%
+Descuento = 1.5
+
+Total final = 13.5
+
+SALIDA ESPERADA
+
+Total de compra: 15
+Cliente registrado: SI
+Descuento aplicado: 1.5
+Total a pagar: 13.5
+
+========================================
+CASO 4 - COMPRA DE VARIOS PRODUCTOS
+===================================
+
+ENTRADA
+
+Cantidad de artículos: 5
+
+Artículo 1
+Nombre: Café Americano
+Precio: 7
+
+Artículo 2
+Nombre: Croissant
+Precio: 4
+
+Artículo 3
+Nombre: Jugo Natural
+Precio: 6
+
+Artículo 4
+Nombre: Muffin
+Precio: 5
+
+Artículo 5
+Nombre: Té Helado
+Precio: 8
+
+Cliente registrado: NO
+
+PROCESO
+
+Total = 7 + 4 + 6 + 5 + 8
+Total = 30
+
+No se aplica descuento.
+
+SALIDA ESPERADA
+
+Total de compra: 30
+Cliente registrado: NO
+Total a pagar: 30
+
+========================================
+FIN DE CASOS DE PRUEBA
+======================
