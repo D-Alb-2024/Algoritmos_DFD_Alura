@@ -1,0 +1,105 @@
+CASOS DE PRUEBA - DESAFÍO 04: CONVERSOR DE MONEDAS
+
+Descripción:
+La función Conversor_moneda(pesos, tasa) recibe un valor en pesos y una tasa de cambio, retornando el equivalente en dólares.
+
+Fórmula utilizada:
+
+dolares = pesos * tasa
+
+========================================
+CASO DE PRUEBA 01
+=================
+
+Entrada:
+pesos = 1000
+tasa = 0.00027
+
+Proceso:
+dolares = 1000 * 0.00027
+
+Resultado esperado:
+dolares = 0.27
+
+========================================
+CASO DE PRUEBA 02
+=================
+
+Entrada:
+pesos = 5000
+tasa = 0.00027
+
+Proceso:
+dolares = 5000 * 0.00027
+
+Resultado esperado:
+dolares = 1.35
+
+========================================
+CASO DE PRUEBA 03
+=================
+
+Entrada:
+pesos = 10000
+tasa = 0.00027
+
+Proceso:
+dolares = 10000 * 0.00027
+
+Resultado esperado:
+dolares = 2.70
+
+========================================
+CASO DE PRUEBA 04
+=================
+
+Entrada:
+pesos = 25000
+tasa = 0.00027
+
+Proceso:
+dolares = 25000 * 0.00027
+
+Resultado esperado:
+dolares = 6.75
+
+========================================
+CASO DE PRUEBA 05
+=================
+
+Entrada:
+pesos = 0
+tasa = 0.00027
+
+Proceso:
+dolares = 0 * 0.00027
+
+Resultado esperado:
+dolares = 0
+
+========================================
+CASO DE PRUEBA 06
+=================
+
+Entrada:
+pesos = 500000
+tasa = 0.00027
+
+Proceso:
+dolares = 500000 * 0.00027
+
+Resultado esperado:
+dolares = 135.00
+
+========================================
+RESUMEN
+=======
+
+| Pesos  | Tasa    | Dólares |
+| ------ | ------- | ------- |
+| 1000   | 0.00027 | 0.27    |
+| 5000   | 0.00027 | 1.35    |
+| 10000  | 0.00027 | 2.70    |
+| 25000  | 0.00027 | 6.75    |
+| 0      | 0.00027 | 0.00    |
+| 500000 | 0.00027 | 135.00  |
