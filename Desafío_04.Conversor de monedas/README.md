@@ -108,12 +108,6 @@ Resultado:
 
 ## ▶️ Ejecución del algoritmo
 
-Código Markdown utilizado:
-
-```markdown
-![Captura de Ejecución](docs/captura_ejecucion.png)
-```
-
 Resultado:
 
 ![Captura de Ejecución](docs/captura_ejecucion.png)
